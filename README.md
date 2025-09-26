@@ -11,10 +11,10 @@ The main objective is to show the process of **using a trained model, exposing i
 
 ---
 
-## 2. Flujo del Proyecto
+## 2. Project Flow
 
 ```mermaid
-flowchart RL
+flowchart LR
     A[Trained model] --> B[API with Flask]
     B --> C[Docker image]
     C --> D[Web Page]
